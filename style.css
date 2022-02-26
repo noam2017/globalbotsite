@@ -22,7 +22,7 @@ html {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	transition: 0.5s;
-	background: blue;
+	background-color: coral;
 }
 
 .container a:hover {
