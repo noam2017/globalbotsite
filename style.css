@@ -22,6 +22,7 @@ html {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	transition: 0.5s;
+	background: blue;
 }
 
 .container a:hover {
