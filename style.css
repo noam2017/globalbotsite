@@ -1,0 +1,53 @@
+html {
+	margin: 0;
+	padding: 0;
+	background: coral;
+}
+
+.container {
+	padding-top: 20%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container a {
+	color: white;
+	font-size: 30px;
+	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.5s;
+}
+
+.container a:hover {
+	transform: scale(1.1);
+}
+
+.logo {
+	animation: float 2s infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.logo img {
+	background-color: bisque;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
