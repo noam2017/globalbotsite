@@ -92,7 +92,11 @@ header {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	transition: 0.5s;
+<<<<<<< HEAD
 	font-weight: bolder;
+=======
+	background-color: coral;
+>>>>>>> 370e18604caee0b25c1fe5af0d676514025e701e
 }
 
 .container a:hover {
