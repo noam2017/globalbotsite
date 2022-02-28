@@ -160,6 +160,10 @@ footer {
 }
 
 /* 404 */
+a {
+  color: #55abdd;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
